@@ -1,4 +1,4 @@
-Create database Lazer
+create database Lazer
 
 create table Pessoa (
 	id_pessoa int,
