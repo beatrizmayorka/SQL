@@ -1,3 +1,7 @@
-select * from Pessoa
-Inner join Viaja
-group by id = id
+SELECT * FROM Viaja
+
+SELECT * FROM Pessoa
+
+SELECT * FROM Local
+
+SELECT * FROM Viaja JOIN Pessoa ON Viaja.id_pessoa = Pessoa.id_pessoa
