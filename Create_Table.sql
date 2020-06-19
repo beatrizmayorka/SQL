@@ -1,20 +1,22 @@
+Create database Lazer
 
 create table Pessoa (
-	id int,
+	id_pessoa int,
 	nome varchar(50),
 	idade int,
-	primary key(id)
+	primary key(id_pessoa)
 );
 
 create table Viaja (
-	id int,
+	id_viaja int,
 	companhia varchar(50),
-	idviaja int,
-	primary key(id)
+	id_pessoa int,
+	id_local int,
+	primary key(id_viaja)
 );
 
 create table Local (
-	idviaja int,
+	id_local int,
 	local varchar(50),
-	primary key(idviaja)
+	primary key(id_local)
 );
